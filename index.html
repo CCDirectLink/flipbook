@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Character Viewer</title>
+	<style>
+	table,
+	th,
+	td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	
+	th,
+	td {
+		padding: 0px;
+	}
+	</style>
+</head>
+
+<body>
+	<table id=table>
+		<tr>
+			<th>Option</th>
+			<th>Character</th>
+		</tr>
+		<tr>
+			<td>
+				<label>Character:</label>
+				<select id=char>
+					<option value="null">None</option>
+					<option value="captain">Captain</option>
+					<option value="carla">Carla</option>
+					<option value="designer">Designer</option>
+					<option value="emilie">Emilie</option>
+					<option value="fancyguy">Fancy Guy</option>
+					<option value="lea">Lea</option>
+					<option value="schneider">Schneider</option>
+					<option value="sergey">Sergey</option>
+					<option value="shizuka">Shiuzka</option>
+				</select>
+				<br>
+				<label>Expression:</label>
+				<select id=exp>
+					<option value="null">Custom</option>
+				</select>
+				<br>
+				<label>Animate:</label>
+				<input type="checkbox" id=anim disable>
+			</td>
+			<td rowspan="50">
+				<canvas id=c-1></canvas>
+			</td>
+		</tr>
+	</table>
+	<script src="view.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

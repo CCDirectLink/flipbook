@@ -1,0 +1,468 @@
+{
+    "name": {
+        "en_US": "Carla",
+        "de_DE": "Carla"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "shadow": 16,
+    "animSheet": "npc.carla",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk",
+            "run": "run",
+            "brake": "brake",
+            "preIdle": "preIdle",
+            "damage": "damage",
+            "fall": "fall",
+            "jump": "jump"
+        },
+        "glasses": {
+            "idle": "idleGlass",
+            "move": "walkGlass",
+            "run": "runGlass",
+            "brake": "brakeGlass",
+            "preIdle": "preIdleGlass",
+            "damage": "damageGlass",
+            "fall": "fallGlass",
+            "jump": "jumpGlass"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "running": {
+            "relativeVel": 1
+        },
+        "glassOn": {
+            "walkAnims": "glasses",
+            "relativeVel": 0.5
+        },
+        "glassOnRunning": {
+            "walkAnims": "glasses",
+            "relativeVel": 1
+        }
+    },
+    "face": {
+        "src": "carla.png",
+        "width": 104,
+        "height": 136,
+        "centerX": 40,
+        "centerY": 48,
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 72,
+                "width": 104,
+                "height": 64,
+                "destX": 0,
+                "destY": 72
+            },
+            "folded": {
+                "srcX": 0,
+                "srcY": 136,
+                "width": 104,
+                "height": 64,
+                "destX": 1,
+                "destY": 72,
+                "subX": 5
+            }
+        }, {
+            "norm": {
+                "srcX": 16,
+                "srcY": 0,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 0
+            },
+            "up": {
+                "srcX": 176,
+                "srcY": 0,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 0
+            },
+            "toward": {
+                "srcX": 248,
+                "srcY": 0,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 0
+            },
+            "glassNorm": {
+                "srcX": 320,
+                "srcY": 0,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 0
+            },
+            "glassUp": {
+                "srcX": 392,
+                "srcY": 0,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 0
+            },
+            "glassToward": {
+                "srcX": 320,
+                "srcY": 72,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 0
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 16,
+                "srcY": 24,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "normSmile": {
+                "srcX": 104,
+                "srcY": 0,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "normSmug": {
+                "srcX": 104,
+                "srcY": 48,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "normWhistling": {
+                "srcX": 104,
+                "srcY": 96,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "normGrin": {
+                "srcX": 104,
+                "srcY": 144,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "upNeutral": {
+                "srcX": 176,
+                "srcY": 24,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "upAngry": {
+                "srcX": 176,
+                "srcY": 72,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "upGrin": {
+                "srcX": 176,
+                "srcY": 120,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "upWondering": {
+                "srcX": 176,
+                "srcY": 168,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "upExcited": {
+                "srcX": 176,
+                "srcY": 216,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "towardNeutral": {
+                "srcX": 248,
+                "srcY": 24,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "towardNervous": {
+                "srcX": 248,
+                "srcY": 72,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "towardIrritated": {
+                "srcX": 248,
+                "srcY": 120,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "towardSmile": {
+                "srcX": 248,
+                "srcY": 168,
+                "width": 72,
+                "height": 48,
+                "destX": 16,
+                "destY": 24
+            },
+            "glsNormNeutral": {
+                "srcX": 16,
+                "srcY": 48,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsNormSmile": {
+                "srcX": 104,
+                "srcY": 24,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsNormWhistling": {
+                "srcX": 104,
+                "srcY": 120,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsNormGrin": {
+                "srcX": 104,
+                "srcY": 168,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsNormCool": {
+                "srcX": 320,
+                "srcY": 48,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsUpNeutral": {
+                "srcX": 176,
+                "srcY": 48,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsUpAngry": {
+                "srcX": 176,
+                "srcY": 96,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsUpGrin": {
+                "srcX": 176,
+                "srcY": 144,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsUpCool": {
+                "srcX": 392,
+                "srcY": 48,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsTowardNeutral": {
+                "srcX": 248,
+                "srcY": 48,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsTowardNervous": {
+                "srcX": 248,
+                "srcY": 96,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            },
+            "glsTowardIrritated": {
+                "srcX": 248,
+                "srcY": 144,
+                "width": 72,
+                "height": 24,
+                "destX": 16,
+                "destY": 48
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["straight", "norm", "normSmile"]
+                ]
+            },
+            "SMUG": {
+                "faces": [
+                    ["folded", "norm", "normSmug"]
+                ]
+            },
+            "WHISTLING": {
+                "faces": [
+                    ["straight", "norm", "normWhistling"]
+                ]
+            },
+            "GRIN": {
+                "faces": [
+                    ["folded", "norm", "normGrin"]
+                ]
+            },
+            "UP": {
+                "faces": [
+                    ["straight", "up", "upNeutral"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "up", "upAngry"]
+                ]
+            },
+            "UP_GRIN": {
+                "faces": [
+                    ["folded", "up", "upGrin"]
+                ]
+            },
+            "WONDERING": {
+                "faces": [
+                    ["straight", "up", "upWondering"]
+                ]
+            },
+            "EXCITED": {
+                "faces": [
+                    ["straight", "up", "upExcited"]
+                ]
+            },
+            "TOWARD": {
+                "faces": [
+                    ["straight", "toward", "towardNeutral"]
+                ]
+            },
+            "NERVOUS": {
+                "faces": [
+                    ["folded", "toward", "towardNervous"]
+                ]
+            },
+            "IRRITATED": {
+                "faces": [
+                    ["folded", "toward", "towardIrritated"]
+                ]
+            },
+            "SIDE_SMILE": {
+                "faces": [
+                    ["straight", "toward", "towardSmile"]
+                ]
+            },
+            "GLASS_DEFAULT": {
+                "faces": [
+                    ["straight", "glassNorm", "glsNormNeutral"]
+                ]
+            },
+            "GLASS_SMILE": {
+                "faces": [
+                    ["straight", "glassNorm", "glsNormSmile"]
+                ]
+            },
+            "GLASS_COOL": {
+                "faces": [
+                    ["folded", "glassNorm", "glsNormCool"]
+                ]
+            },
+            "GLASS_WHISTLING": {
+                "faces": [
+                    ["straight", "glassNorm", "glsNormWhistling"]
+                ]
+            },
+            "GLASS_GRIN": {
+                "faces": [
+                    ["folded", "glassNorm", "glsNormGrin"]
+                ]
+            },
+            "GLASS_UP": {
+                "faces": [
+                    ["straight", "glassUp", "glsUpNeutral"]
+                ]
+            },
+            "GLASS_UP_COOL": {
+                "faces": [
+                    ["folded", "glassUp", "glsUpCool"]
+                ]
+            },
+            "GLASS_ANGRY": {
+                "faces": [
+                    ["straight", "glassUp", "glsUpAngry"]
+                ]
+            },
+            "GLASS_UP_GRIN": {
+                "faces": [
+                    ["folded", "glassUp", "glsUpGrin"]
+                ]
+            },
+            "GLASS_TOWARD": {
+                "faces": [
+                    ["straight", "glassToward", "glsTowardNeutral"]
+                ]
+            },
+            "GLASS_NERVOUS": {
+                "faces": [
+                    ["folded", "glassToward", "glsTowardNervous"]
+                ]
+            },
+            "GLASS_IRRITATED": {
+                "faces": [
+                    ["folded", "glassToward", "glsTowardIrritated"]
+                ]
+            }
+        }
+    }
+}
