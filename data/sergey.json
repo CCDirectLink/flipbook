@@ -27,13 +27,23 @@
                 "height": 48,
                 "destX": 12,
                 "destY": 104
+            },
+            "back": {
+                "srcX": 16,
+                "srcY": 160,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 96,
+                "subX": 5,
+                "subY": -2
             }
         }, {
             "norm": {
                 "srcX": 96,
                 "srcY": 0,
                 "width": 80,
-                "height": 32,
+                "height": 24,
                 "destX": 12,
                 "destY": 24
             },
@@ -41,7 +51,7 @@
                 "srcX": 176,
                 "srcY": 0,
                 "width": 80,
-                "height": 32,
+                "height": 24,
                 "destX": 12,
                 "destY": 24
             },
@@ -49,106 +59,130 @@
                 "srcX": 256,
                 "srcY": 0,
                 "width": 80,
-                "height": 32,
+                "height": 24,
                 "destX": 12,
                 "destY": 24
             }
         }, {
             "normNeutral": {
                 "srcX": 96,
-                "srcY": 32,
+                "srcY": 24,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "normRollEyes": {
                 "srcX": 96,
                 "srcY": 128,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "normJoke": {
                 "srcX": 96,
-                "srcY": 176,
+                "srcY": 184,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "normShout": {
                 "srcX": 96,
-                "srcY": 224,
+                "srcY": 240,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
+            },
+            "normSmile": {
+                "srcX": 96,
+                "srcY": 296,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "normSurprised": {
+                "srcX": 96,
+                "srcY": 352,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
             },
             "downNeutral": {
                 "srcX": 176,
-                "srcY": 32,
+                "srcY": 24,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "downWorried": {
                 "srcX": 176,
                 "srcY": 80,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "downSerious": {
                 "srcX": 176,
-                "srcY": 128,
+                "srcY": 136,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "downEyeClosed": {
                 "srcX": 176,
-                "srcY": 176,
+                "srcY": 192,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "downWhistling": {
                 "srcX": 176,
-                "srcY": 224,
+                "srcY": 248,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
+            },
+            "downDramatic": {
+                "srcX": 176,
+                "srcY": 304,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
             },
             "awayNeutral": {
                 "srcX": 256,
-                "srcY": 32,
+                "srcY": 24,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "awayNotify": {
                 "srcX": 256,
                 "srcY": 80,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             },
             "awayThink": {
                 "srcX": 256,
-                "srcY": 128,
+                "srcY": 136,
                 "width": 80,
-                "height": 48,
+                "height": 56,
                 "destX": 12,
-                "destY": 56
+                "destY": 48
             }
         }],
         "expressions": {
@@ -170,6 +204,11 @@
             "SHOUTING": {
                 "faces": [
                     ["display", "straight", "norm", "normShout"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["display", "straight", "norm", "normSmile"]
                 ]
             },
             "DOWN": {
@@ -197,6 +236,11 @@
                     ["display", "straight", "down", "downWhistling"]
                 ]
             },
+            "DRAMATIC": {
+                "faces": [
+                    ["display", "straight", "down", "downDramatic"]
+                ]
+            },
             "AWAY": {
                 "faces": [
                     ["display", "straight", "away", "awayNeutral"]
@@ -210,6 +254,11 @@
             "THINKING": {
                 "faces": [
                     ["display", "straight", "away", "awayThink"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["display", "back", "norm", "normSurprised"]
                 ]
             }
         }

@@ -33,21 +33,21 @@
     },
     "face": {
         "src": "shizuka.png",
-        "width": 96,
+        "width": 104,
         "height": 144,
         "centerX": 28,
-        "centerY": 56,
+        "centerY": 54,
         "parts": [{
             "straight": {
                 "srcX": 0,
                 "srcY": 88,
-                "width": 96,
+                "width": 104,
                 "height": 56,
                 "destX": 0,
                 "destY": 88
             },
             "hold": {
-                "srcX": 272,
+                "srcX": 296,
                 "srcY": 0,
                 "width": 96,
                 "height": 128,
@@ -58,23 +58,23 @@
             "norm": {
                 "srcX": 0,
                 "srcY": 0,
-                "width": 88,
+                "width": 96,
                 "height": 32,
                 "destX": 0,
                 "destY": 0
             },
             "down": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 0,
-                "width": 88,
+                "width": 96,
                 "height": 32,
                 "destX": 0,
                 "destY": 0
             },
             "toward": {
-                "srcX": 184,
+                "srcX": 200,
                 "srcY": 0,
-                "width": 88,
+                "width": 96,
                 "height": 32,
                 "destX": 0,
                 "destY": 0
@@ -83,7 +83,7 @@
             "normNeutral": {
                 "srcX": 0,
                 "srcY": 32,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
@@ -91,7 +91,7 @@
             "normSuspicious": {
                 "srcX": 0,
                 "srcY": 144,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
@@ -99,7 +99,7 @@
             "normSarcastic": {
                 "srcX": 0,
                 "srcY": 200,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
@@ -107,7 +107,7 @@
             "normStrict": {
                 "srcX": 0,
                 "srcY": 256,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
@@ -115,79 +115,79 @@
             "normShock": {
                 "srcX": 0,
                 "srcY": 312,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "downNeutral": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 32,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "downAngry": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 88,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "downDenying": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 144,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "downGrin": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 200,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "downConcerned": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 256,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "towardNeutral": {
-                "srcX": 184,
+                "srcX": 200,
                 "srcY": 32,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "towardYell": {
-                "srcX": 184,
+                "srcX": 200,
                 "srcY": 88,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "towardAnnoyed": {
-                "srcX": 184,
+                "srcX": 200,
                 "srcY": 144,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
             },
             "towardConflicted": {
-                "srcX": 184,
+                "srcX": 200,
                 "srcY": 200,
-                "width": 88,
+                "width": 96,
                 "height": 56,
                 "destX": 0,
                 "destY": 32
