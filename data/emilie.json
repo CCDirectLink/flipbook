@@ -18,7 +18,9 @@
         "normal": {
             "idle": "idle",
             "move": "walk",
-            "run": "run"
+            "run": "run",
+            "jump": "jump",
+            "fall": "fall"
         }
     },
     "walkAnims": "normal",
@@ -53,7 +55,7 @@
                 "destX": 0,
                 "destY": 96,
                 "subY": 11,
-                "subX": -14
+                "subX": -16
             },
             "shrug": {
                 "srcX": 240,
@@ -123,6 +125,14 @@
                 "destX": 16,
                 "destY": 40
             },
+            "normSad": {
+                "srcX": 0,
+                "srcY": 264,
+                "width": 80,
+                "height": 56,
+                "destX": 16,
+                "destY": 40
+            },
             "upNeutral": {
                 "srcX": 80,
                 "srcY": 40,
@@ -171,6 +181,14 @@
                 "destX": 16,
                 "destY": 40
             },
+            "upHappy": {
+                "srcX": 80,
+                "srcY": 376,
+                "width": 80,
+                "height": 56,
+                "destX": 16,
+                "destY": 40
+            },
             "awayNeutral": {
                 "srcX": 160,
                 "srcY": 40,
@@ -210,6 +228,14 @@
                 "height": 56,
                 "destX": 16,
                 "destY": 40
+            },
+            "awayCurious": {
+                "srcX": 160,
+                "srcY": 320,
+                "width": 80,
+                "height": 56,
+                "destX": 16,
+                "destY": 40
             }
         }],
         "expressions": {
@@ -231,6 +257,11 @@
             "SMILE": {
                 "faces": [
                     ["straight", "norm", "normSmile"]
+                ]
+            },
+            "SAD": {
+                "faces": [
+                    ["straight", "norm", "normSad"]
                 ]
             },
             "UP": {
@@ -263,6 +294,11 @@
                     ["straight", "up", "upShocked"]
                 ]
             },
+            "HAPPY": {
+                "faces": [
+                    ["straight", "up", "upHappy"]
+                ]
+            },
             "AWAY": {
                 "faces": [
                     ["straight", "away", "awayNeutral"]
@@ -286,6 +322,11 @@
             "MOPING": {
                 "faces": [
                     ["straight", "away", "awayMoping"]
+                ]
+            },
+            "CURIOUS": {
+                "faces": [
+                    ["straight", "away", "awayCurious"]
                 ]
             }
         }

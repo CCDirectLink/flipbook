@@ -51,285 +51,285 @@
     },
     "face": {
         "src": "carla.png",
-        "width": 104,
-        "height": 136,
-        "centerX": 40,
-        "centerY": 48,
+        "width": 120,
+        "height": 152,
+        "centerX": 48,
+        "centerY": 52,
         "parts": [{
             "straight": {
                 "srcX": 0,
-                "srcY": 72,
-                "width": 104,
-                "height": 64,
+                "srcY": 80,
+                "width": 120,
+                "height": 72,
                 "destX": 0,
-                "destY": 72
+                "destY": 80
             },
             "folded": {
                 "srcX": 0,
-                "srcY": 136,
-                "width": 104,
-                "height": 64,
-                "destX": 1,
-                "destY": 72,
-                "subX": 5
+                "srcY": 152,
+                "width": 120,
+                "height": 72,
+                "destX": 0,
+                "destY": 80,
+                "subX": 6
             }
         }, {
             "norm": {
-                "srcX": 16,
+                "srcX": 24,
                 "srcY": 0,
                 "width": 72,
                 "height": 24,
-                "destX": 16,
+                "destX": 24,
                 "destY": 0
             },
             "up": {
-                "srcX": 176,
+                "srcX": 192,
                 "srcY": 0,
                 "width": 72,
                 "height": 24,
-                "destX": 16,
+                "destX": 24,
                 "destY": 0
             },
             "toward": {
-                "srcX": 248,
+                "srcX": 264,
                 "srcY": 0,
                 "width": 72,
                 "height": 24,
-                "destX": 16,
+                "destX": 24,
                 "destY": 0
             },
             "glassNorm": {
-                "srcX": 320,
+                "srcX": 336,
                 "srcY": 0,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 52,
+                "destX": 24,
                 "destY": 0
             },
             "glassUp": {
-                "srcX": 392,
+                "srcX": 408,
                 "srcY": 0,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 52,
+                "destX": 24,
                 "destY": 0
             },
             "glassToward": {
-                "srcX": 320,
-                "srcY": 72,
+                "srcX": 336,
+                "srcY": 80,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 52,
+                "destX": 24,
                 "destY": 0
             }
         }, {
             "normNeutral": {
-                "srcX": 16,
+                "srcX": 24,
                 "srcY": 24,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "normSmile": {
-                "srcX": 104,
+                "srcX": 120,
                 "srcY": 0,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "normSmug": {
-                "srcX": 104,
-                "srcY": 48,
+                "srcX": 120,
+                "srcY": 56,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "normWhistling": {
-                "srcX": 104,
-                "srcY": 96,
+                "srcX": 120,
+                "srcY": 112,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "normGrin": {
-                "srcX": 104,
-                "srcY": 144,
+                "srcX": 120,
+                "srcY": 168,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "upNeutral": {
-                "srcX": 176,
+                "srcX": 192,
                 "srcY": 24,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "upAngry": {
-                "srcX": 176,
-                "srcY": 72,
+                "srcX": 192,
+                "srcY": 80,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "upGrin": {
-                "srcX": 176,
-                "srcY": 120,
+                "srcX": 192,
+                "srcY": 136,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "upWondering": {
-                "srcX": 176,
-                "srcY": 168,
+                "srcX": 192,
+                "srcY": 192,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "upExcited": {
-                "srcX": 176,
-                "srcY": 216,
+                "srcX": 192,
+                "srcY": 248,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "towardNeutral": {
-                "srcX": 248,
+                "srcX": 264,
                 "srcY": 24,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "towardNervous": {
-                "srcX": 248,
-                "srcY": 72,
+                "srcX": 264,
+                "srcY": 80,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "towardIrritated": {
-                "srcX": 248,
-                "srcY": 120,
+                "srcX": 264,
+                "srcY": 136,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "towardSmile": {
-                "srcX": 248,
-                "srcY": 168,
+                "srcX": 264,
+                "srcY": 192,
                 "width": 72,
-                "height": 48,
-                "destX": 16,
+                "height": 56,
+                "destX": 24,
                 "destY": 24
             },
             "glsNormNeutral": {
-                "srcX": 16,
-                "srcY": 48,
+                "srcX": 24,
+                "srcY": 52,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsNormSmile": {
-                "srcX": 104,
-                "srcY": 24,
+                "srcX": 120,
+                "srcY": 28,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsNormWhistling": {
-                "srcX": 104,
-                "srcY": 120,
+                "srcX": 120,
+                "srcY": 140,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsNormGrin": {
-                "srcX": 104,
-                "srcY": 168,
+                "srcX": 120,
+                "srcY": 196,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsNormCool": {
-                "srcX": 320,
-                "srcY": 48,
+                "srcX": 336,
+                "srcY": 52,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsUpNeutral": {
-                "srcX": 176,
-                "srcY": 48,
+                "srcX": 192,
+                "srcY": 52,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsUpAngry": {
-                "srcX": 176,
-                "srcY": 96,
+                "srcX": 192,
+                "srcY": 108,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsUpGrin": {
-                "srcX": 176,
-                "srcY": 144,
+                "srcX": 192,
+                "srcY": 164,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsUpCool": {
-                "srcX": 392,
-                "srcY": 48,
+                "srcX": 408,
+                "srcY": 52,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsTowardNeutral": {
-                "srcX": 248,
-                "srcY": 48,
+                "srcX": 264,
+                "srcY": 52,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsTowardNervous": {
-                "srcX": 248,
-                "srcY": 96,
+                "srcX": 264,
+                "srcY": 108,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             },
             "glsTowardIrritated": {
-                "srcX": 248,
-                "srcY": 144,
+                "srcX": 264,
+                "srcY": 164,
                 "width": 72,
-                "height": 24,
-                "destX": 16,
-                "destY": 48
+                "height": 28,
+                "destX": 24,
+                "destY": 52
             }
         }],
         "expressions": {

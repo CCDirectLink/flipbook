@@ -24,360 +24,484 @@
     },
     "configs": {
         "normal": {
-            "walkAnims": "normal",
-            "floatHeight": 48,
-            "floatVariance": 3,
-            "relativeVel": 0.5
+            "walkAnims": "normal"
         }
     },
     "face": {
         "src": "botchan1.png",
-        "width": 96,
+        "width": 104,
         "height": 144,
-        "centerX": 33,
-        "centerY": 54,
+        "centerX": 38,
+        "centerY": 50,
         "parts": [{
             "straight": {
                 "srcX": 0,
-                "srcY": 80,
-                "width": 96,
-                "height": 64,
+                "srcY": 72,
+                "width": 104,
+                "height": 72,
                 "destX": 0,
-                "destY": 80
+                "destY": 72
             },
             "tight": {
                 "srcX": 0,
                 "srcY": 144,
-                "width": 96,
-                "height": 64,
-                "destX": 2,
-                "destY": 80,
+                "width": 104,
+                "height": 72,
+                "destX": 0,
+                "destY": 72,
                 "subX": 2
             },
             "spread": {
                 "srcX": 0,
-                "srcY": 208,
-                "width": 96,
-                "height": 64,
-                "destX": 4,
-                "destY": 80,
+                "srcY": 216,
+                "width": 104,
+                "height": 72,
+                "destX": 0,
+                "destY": 72,
                 "subX": 4
             },
             "tired": {
                 "srcX": 0,
-                "srcY": 272,
-                "width": 96,
-                "height": 64,
-                "destX": 0,
-                "destY": 80,
-                "subX": -11,
-                "subY": 3
+                "srcY": 288,
+                "width": 104,
+                "height": 72,
+                "destX": -4,
+                "destY": 72,
+                "subX": -16,
+                "subY": 4
             },
             "forward": {
                 "srcX": 0,
-                "srcY": 336,
-                "width": 96,
-                "height": 64,
-                "destX": -8,
-                "destY": 80,
-                "subX": -7,
-                "subY": 0
+                "srcY": 360,
+                "width": 104,
+                "height": 72,
+                "destX": 0,
+                "destY": 72,
+                "subX": -2
             },
             "holdHorns": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 368,
-                "width": 144,
+                "width": 152,
                 "height": 144,
-                "destX": -16,
+                "destX": -24,
                 "destY": 0,
-                "subX": 12,
+                "subX": 16,
                 "subY": 0
             },
             "side": {
                 "srcX": 0,
-                "srcY": 400,
-                "width": 96,
-                "height": 64,
+                "srcY": 432,
+                "width": 104,
+                "height": 72,
                 "destX": 10,
-                "destY": 80,
-                "subX": 12,
+                "destY": 72,
+                "subX": 6,
                 "subY": 0
             },
             "strong": {
-                "srcX": 240,
-                "srcY": 448,
+                "srcX": 256,
+                "srcY": 440,
                 "width": 104,
-                "height": 64,
+                "height": 72,
+                "destX": -2,
+                "destY": 72,
+                "subX": -6
+            },
+            "hand": {
+                "srcX": 256,
+                "srcY": 368,
+                "width": 104,
+                "height": 72,
                 "destX": 0,
-                "destY": 80,
-                "subX": -2,
-                "subY": 0
+                "destY": 72
             }
         }, {
             "norm": {
-                "srcX": 0,
+                "srcX": 8,
                 "srcY": 0,
                 "width": 96,
-                "height": 32,
-                "destX": 0,
+                "height": 24,
+                "destX": 8,
                 "destY": 0
             },
             "up": {
-                "srcX": 96,
+                "srcX": 104,
                 "srcY": 0,
                 "width": 96,
-                "height": 32,
-                "destX": 0,
+                "height": 24,
+                "destX": 8,
                 "destY": 0
             },
             "down": {
-                "srcX": 192,
+                "srcX": 200,
                 "srcY": 0,
                 "width": 96,
-                "height": 32,
-                "destX": 0,
+                "height": 24,
+                "destX": 8,
                 "destY": 0
             },
             "away": {
-                "srcX": 288,
+                "srcX": 296,
                 "srcY": 0,
-                "width": 96,
-                "height": 32,
-                "destX": 0,
+                "width": 104,
+                "height": 24,
+                "destX": 8,
                 "destY": 0
             },
             "toward": {
-                "srcX": 384,
+                "srcX": 400,
                 "srcY": 0,
                 "width": 96,
-                "height": 32,
-                "destX": 0,
+                "height": 24,
+                "destX": 8,
                 "destY": 0
             },
             "holdHornsAnnoyed": {
-                "srcX": 192,
-                "srcY": 272,
+                "srcX": 200,
+                "srcY": 264,
                 "width": 96,
                 "height": 48,
                 "destX": 0,
-                "destY": 32
+                "destY": 24
             }
         }, {
             "normNeutral": {
-                "srcX": 0,
-                "srcY": 32,
+                "srcX": 8,
+                "srcY": 24,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "normSurprised": {
-                "srcX": 96,
-                "srcY": 176,
+                "srcX": 104,
+                "srcY": 168,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "normExcited": {
-                "srcX": 288,
-                "srcY": 128,
+                "srcX": 296,
+                "srcY": 120,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upNeutral": {
-                "srcX": 96,
-                "srcY": 32,
+                "srcX": 104,
+                "srcY": 24,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upSleep": {
-                "srcX": 96,
-                "srcY": 80,
+                "srcX": 104,
+                "srcY": 72,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upTired": {
-                "srcX": 96,
-                "srcY": 128,
+                "srcX": 104,
+                "srcY": 120,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upProud": {
-                "srcX": 96,
-                "srcY": 224,
+                "srcX": 104,
+                "srcY": 216,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upSmug": {
-                "srcX": 96,
-                "srcY": 272,
+                "srcX": 104,
+                "srcY": 264,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upWhistling": {
-                "srcX": 96,
-                "srcY": 320,
+                "srcX": 104,
+                "srcY": 312,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upShocked": {
-                "srcX": 192,
-                "srcY": 320,
+                "srcX": 200,
+                "srcY": 312,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upPain": {
-                "srcX": 288,
-                "srcY": 272,
+                "srcX": 296,
+                "srcY": 264,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "upAstonished": {
-                "srcX": 384,
-                "srcY": 176,
+                "srcX": 400,
+                "srcY": 168,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downNeutral": {
-                "srcX": 192,
-                "srcY": 32,
+                "srcX": 200,
+                "srcY": 24,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downEyeClosed": {
-                "srcX": 192,
-                "srcY": 80,
+                "srcX": 200,
+                "srcY": 72,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downSad": {
-                "srcX": 192,
-                "srcY": 128,
+                "srcX": 200,
+                "srcY": 120,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downNervous": {
-                "srcX": 192,
-                "srcY": 176,
+                "srcX": 200,
+                "srcY": 168,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downAnnoyed": {
-                "srcX": 192,
-                "srcY": 224,
+                "srcX": 200,
+                "srcY": 216,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downScared": {
-                "srcX": 288,
-                "srcY": 224,
+                "srcX": 296,
+                "srcY": 216,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downDetermined": {
-                "srcX": 288,
-                "srcY": 320,
+                "srcX": 296,
+                "srcY": 312,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "downExhausted": {
-                "srcX": 384,
-                "srcY": 224,
+                "srcX": 400,
+                "srcY": 216,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "awayNeutral": {
-                "srcX": 288,
-                "srcY": 32,
+                "srcX": 296,
+                "srcY": 24,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "awaySurprised": {
-                "srcX": 288,
-                "srcY": 80,
+                "srcX": 296,
+                "srcY": 72,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "awayCharmed": {
-                "srcX": 288,
-                "srcY": 176,
+                "srcX": 296,
+                "srcY": 168,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
+            },
+            "awayTouched": {
+                "srcX": 400,
+                "srcY": 312,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
             },
             "towardNeutral": {
-                "srcX": 384,
-                "srcY": 32,
+                "srcX": 400,
+                "srcY": 24,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "towardMoping": {
-                "srcX": 384,
-                "srcY": 80,
+                "srcX": 400,
+                "srcY": 72,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "towardSurprised": {
-                "srcX": 384,
-                "srcY": 128,
+                "srcX": 400,
+                "srcY": 120,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
             },
             "towardSmile": {
-                "srcX": 384,
-                "srcY": 272,
+                "srcX": 400,
+                "srcY": 264,
                 "width": 96,
                 "height": 48,
-                "destX": 0,
-                "destY": 32
+                "destX": 8,
+                "destY": 24
+            },
+            "towardConfused": {
+                "srcX": 496,
+                "srcY": 0,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "downShout": {
+                "srcX": 496,
+                "srcY": 48,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "normAngry": {
+                "srcX": 496,
+                "srcY": 96,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "normEyeClosed": {
+                "srcX": 496,
+                "srcY": 144,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "awayEyeClosed": {
+                "srcX": 496,
+                "srcY": 192,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "towardEyeClosed": {
+                "srcX": 496,
+                "srcY": 240,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "downPanic1": {
+                "srcX": 496,
+                "srcY": 288,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "downPanic2": {
+                "srcX": 496,
+                "srcY": 336,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "normSad": {
+                "srcX": 592,
+                "srcY": 0,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            },
+            "upSad": {
+                "srcX": 592,
+                "srcY": 48,
+                "width": 96,
+                "height": 48,
+                "destX": 8,
+                "destY": 24
+            }
+        }, {
+            "handOne": {
+                "srcX": 400,
+                "srcY": 400,
+                "width": 56,
+                "height": 56,
+                "destX": 28,
+                "destY": 88
+            },
+            "handTwo": {
+                "srcX": 456,
+                "srcY": 400,
+                "width": 56,
+                "height": 56,
+                "destX": 28,
+                "destY": 88
+            },
+            "handThree": {
+                "srcX": 400,
+                "srcY": 456,
+                "width": 56,
+                "height": 56,
+                "destX": 28,
+                "destY": 88
+            },
+            "handFour": {
+                "srcX": 456,
+                "srcY": 456,
+                "width": 56,
+                "height": 56,
+                "destX": 28,
+                "destY": 88
             }
         }],
         "expressions": {
@@ -417,6 +541,16 @@
                     ["straight", "toward", "towardNeutral"]
                 ],
                 "anim": [0, 0, 1, 2, 2, 1, 0, 0, 1],
+                "time": 0.1
+            },
+            "NOD_NERVOUS": {
+                "faces": [
+                    ["straight", "up", "upNeutral"],
+                    ["straight", "norm", "normNeutral"],
+                    ["straight", "down", "downNeutral"],
+                    ["straight", "down", "downNervous"]
+                ],
+                "anim": [3, 0, 0, 1, 2, 2, 1, 1, 3],
                 "time": 0.1
             },
             "SLEEPING": {
@@ -525,6 +659,78 @@
             "SMILE": {
                 "faces": [
                     ["straight", "toward", "towardSmile"]
+                ]
+            },
+            "TOUCHED": {
+                "faces": [
+                    ["tight", "away", "awayTouched"]
+                ]
+            },
+            "CONFUSED": {
+                "faces": [
+                    ["tight", "toward", "towardConfused"]
+                ]
+            },
+            "SHOUT": {
+                "faces": [
+                    ["spread", "down", "downShout"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "norm", "normAngry"]
+                ]
+            },
+            "SHAKE_EYE_CLOSED": {
+                "faces": [
+                    ["straight", "away", "awayEyeClosed"],
+                    ["straight", "norm", "normEyeClosed"],
+                    ["straight", "toward", "towardEyeClosed"]
+                ],
+                "anim": [0, 0, 1, 2, 2, 1, 0, 0, 1],
+                "time": 0.066
+            },
+            "PANIC": {
+                "faces": [
+                    ["tight", "down", "downPanic1"],
+                    ["tight", "down", "downPanic2"]
+                ],
+                "anim": [0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                "time": 0.05,
+                "repeat": true
+            },
+            "NOD_SAD": {
+                "faces": [
+                    ["tight", "up", "upSad"],
+                    ["tight", "norm", "normSad"],
+                    ["tight", "down", "downSad"]
+                ],
+                "anim": [1, 0, 0, 1, 2, 2, 1, 1, 2],
+                "time": 0.1
+            },
+            "HAND_ONE": {
+                "faces": [
+                    ["hand", "norm", "normNeutral", "handOne"]
+                ]
+            },
+            "HAND_TWO": {
+                "faces": [
+                    ["hand", "norm", "normNeutral", "handTwo"]
+                ]
+            },
+            "HAND_THREE": {
+                "faces": [
+                    ["hand", "norm", "normNeutral", "handThree"]
+                ]
+            },
+            "HAND_FOUR": {
+                "faces": [
+                    ["hand", "norm", "normNeutral", "handFour"]
+                ]
+            },
+            "HAND_FOUR_SMUG": {
+                "faces": [
+                    ["hand", "up", "upSmug", "handFour"]
                 ]
             }
         }

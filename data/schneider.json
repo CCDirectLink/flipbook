@@ -17,7 +17,11 @@
     "walkAnimSet": {
         "normal": {
             "idle": "idle",
-            "move": "walk"
+            "move": "walk",
+            "run": "run"
+        },
+        "sit": {
+            "idle": "sit"
         }
     },
     "walkAnims": "normal",
@@ -27,6 +31,10 @@
         },
         "running": {
             "relativeVel": 1
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "relativeVel": 0.5
         }
     },
     "face": {
@@ -48,9 +56,9 @@
                 "srcX": 0,
                 "srcY": 96,
                 "width": 176,
-                "height": 96,
+                "height": 104,
                 "destX": 0,
-                "destY": 88,
+                "destY": 80,
                 "subX": 2
             }
         }, {
@@ -174,6 +182,14 @@
                 "height": 64,
                 "destX": 40,
                 "destY": 40
+            },
+            "towardsSerious": {
+                "srcX": 336,
+                "srcY": 232,
+                "width": 80,
+                "height": 64,
+                "destX": 40,
+                "destY": 40
             }
         }],
         "expressions": {
@@ -230,6 +246,11 @@
             "WHISTLING": {
                 "faces": [
                     ["straight", "towards", "towardsWhistling"]
+                ]
+            },
+            "SERIOUS": {
+                "faces": [
+                    ["folded", "towards", "towardsSerious"]
                 ]
             }
         }
