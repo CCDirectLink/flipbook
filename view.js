@@ -133,7 +133,7 @@ function draw() {
     var canvas = document.getElementById("c-1");
     var ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    for (var i = 0; i < char.partsId.length; i++) {
+    for (var i = document.getElementById("body").checked?1:0; i < char.partsId.length; i++) {
         if (char.partsId[i]) {
             drawPart(ctx, char.image, char.parts[i][char.partsId[i]]);
         }
