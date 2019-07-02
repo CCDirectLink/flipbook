@@ -67,16 +67,27 @@ function load() {
     }
 }
 
-function loadChar(data) {
-    char.image = new Image();
-    char.image.onload = load;
-    char.image.src = 'media/' + data.src;
+function imagePromise(path){
+  return new Promise(function(resolve, reject) {
+    const i = new Image();
+    i.onload = resolve(i);
+    i.src = path;
+  });
+}
+
+async function loadChar(data) {
+    char.image = {};
+    char.image[""] = await imagePromise('media/' + data.src);
+    await Promise.all(Object.entries(data.subImages||{}).map(async ([k,v]) => {
+      char.image[k] = await imagePromise('media/' + v);
+    }))
     char.parts = data.parts;
     char.exp = data.expressions;
     resize(document.getElementById("c-1"), data.width, data.height);
     for (var i = 0; i < char.parts.length; i++) {
         genRow(i);
     }
+    load();
 }
 
 function resize(canvas, w, h) {
@@ -133,21 +144,19 @@ function draw() {
     var canvas = document.getElementById("c-1");
     var ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height)
+    var x = y = 0;
     for (var i = document.getElementById("body").checked?1:0; i < char.partsId.length; i++) {
         if (char.partsId[i]) {
-            drawPart(ctx, char.image, char.parts[i][char.partsId[i]]);
+            var part = char.parts[i][char.partsId[i]]
+            drawPart(ctx, char.image, part, x ,y);
+            x += part.subX||0;
+            y += part.subY||0;
         }
     }
 }
 
-function drawPart(ctx, image, p) {
-    if (!p.subX) {
-        p.subX = 0;
-    }
-    if (!p.subY) {
-        p.subY = 0;
-    }
-    ctx.drawImage(image, p.srcX, p.srcY, p.width, p.height, p.destX - p.subX, p.destY - p.subY, p.width, p.height);
+function drawPart(ctx, image, p, x, y) {
+    ctx.drawImage(image[p.img||""], p.srcX, p.srcY, p.width, p.height, p.destX + x, p.destY + y, p.width, p.height);
 }
 
 function animate(i) {
@@ -168,7 +177,7 @@ function init() {
         if (this.value == "null") {
             return;
         }
-        var path = 'data/' + this.value + '.json';
+        var path = 'data/' + this.value ;
         getChar(path);
 
     };
