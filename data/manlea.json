@@ -1,0 +1,2203 @@
+{
+  "name": {
+    "en_US": "Manlea",
+    "de_DE": "Manlea<<A<<[CHANGED 2021\/03\/30]",
+    "zh_CN": "\u8389\u5c0f\u9f99<<A<<[CHANGED 2021\/03\/30]",
+    "zh_TW": "\u8389\u4e9e<<A<<[CHANGED 2021\/03\/30]",
+    "ja_JP": "\u30de\u30f3\u30ec\u30a2<<A<<[CHANGED 2021\/03\/30]",
+    "ko_KR": "\ub0a8\uc790 \ub808\uc544<<A<<[CHANGED 2021\/03\/30]",
+    "langUid": 1
+  },
+  "size": {
+    "x": 16,
+    "y": 16,
+    "z": 24
+  },
+  "animSheet": "manlea",
+  "walkAnimSet": {
+    "normal": {
+      "idle": "idle",
+      "move": "walk",
+      "run": "run",
+      "brake": "brake",
+      "preIdle": "preIdle",
+      "damage": "damage",
+      "fall": "fall",
+      "jump": "jump"
+    }
+  },
+  "shadow": 16,
+  "configs": {
+    "normal": {
+      "walkAnims": "normal"
+    }
+  },
+  "face": {
+    "subImages": {
+      "panic": "manlea-panic.png",
+      "special": "manlea-special.png",
+      "hand": "manlea-hand.png"
+    },
+    "width": 104,
+    "height": 144,
+    "centerX": 56,
+    "centerY": 72,
+    "src": "manlea.png",
+    "parts": [
+      {
+        "straight": {
+          "srcX": 0,
+          "srcY": 104,
+          "width": 144,
+          "height": 88,
+          "destX": -20,
+          "destY": 60,
+          "subX": -20,
+          "subY": -44,
+          "img": ""
+        },
+        "tight": {
+          "srcX": 0,
+          "srcY": 192,
+          "width": 144,
+          "height": 88,
+          "destX": -20,
+          "destY": 60,
+          "subX": -19,
+          "subY": -44,
+          "img": ""
+        },
+        "spread": {
+          "srcX": 0,
+          "srcY": 280,
+          "width": 144,
+          "height": 88,
+          "destX": -20,
+          "destY": 60,
+          "subX": -19,
+          "subY": -44,
+          "img": ""
+        },
+        "tired": {
+          "srcX": 0,
+          "srcY": 368,
+          "width": 144,
+          "height": 88,
+          "destX": -30,
+          "destY": 60,
+          "subX": -36,
+          "subY": -43,
+          "img": ""
+        },
+        "forward": {
+          "srcX": 0,
+          "srcY": 456,
+          "width": 144,
+          "height": 88,
+          "destX": -20,
+          "destY": 60,
+          "subX": -21,
+          "subY": -44,
+          "img": ""
+        },
+        "holdHorns": {
+          "srcX": 0,
+          "srcY": 0,
+          "width": 216,
+          "height": 200,
+          "destX": -40,
+          "destY": -56,
+          "subX": 32,
+          "subY": 0,
+          "img": "special"
+        },
+        "side": {
+          "srcX": 216,
+          "srcY": 112,
+          "width": 112,
+          "height": 88,
+          "destX": 2,
+          "destY": 60,
+          "subX": -10,
+          "subY": -44,
+          "img": "special"
+        },
+        "strong": {
+          "srcX": 0,
+          "srcY": 544,
+          "width": 144,
+          "height": 88,
+          "destX": -22,
+          "destY": 60,
+          "subX": -25,
+          "subY": -44,
+          "img": ""
+        },
+        "hand": {
+          "srcX": 0,
+          "srcY": 0,
+          "width": 144,
+          "height": 88,
+          "destX": -20,
+          "destY": 60,
+          "subX": -20,
+          "subY": -44,
+          "img": "hand"
+        },
+        "hand2": {
+          "srcX": 0,
+          "srcY": 128,
+          "width": 144,
+          "height": 88,
+          "destX": -12,
+          "destY": 60,
+          "subX": -12,
+          "subY": -44,
+          "img": "hand"
+        },
+        "wrapShoulder": {
+          "srcX": 112,
+          "srcY": 0,
+          "width": 136,
+          "height": 184,
+          "destX": -20,
+          "destY": -28,
+          "subX": -20,
+          "subY": -44,
+          "img": "panic"
+        },
+        "wrapHead": {
+          "srcX": 256,
+          "srcY": 0,
+          "width": 136,
+          "height": 184,
+          "destX": -20,
+          "destY": -28,
+          "subX": -20,
+          "subY": -44,
+          "img": "panic"
+        },
+        "cry": {
+          "srcX": 400,
+          "srcY": 0,
+          "width": 136,
+          "height": 184,
+          "destX": -20,
+          "destY": -36,
+          "subX": -20,
+          "subY": -44,
+          "img": "panic"
+        }
+      },
+      {
+        "norm": {
+          "srcX": 16,
+          "srcY": 0,
+          "width": 104,
+          "height": 48,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "up": {
+          "srcX": 144,
+          "srcY": 0,
+          "width": 104,
+          "height": 48,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "down": {
+          "srcX": 248,
+          "srcY": 0,
+          "width": 104,
+          "height": 48,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "away": {
+          "srcX": 352,
+          "srcY": 0,
+          "width": 104,
+          "height": 48,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "toward": {
+          "srcX": 456,
+          "srcY": 0,
+          "width": 104,
+          "height": 48,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "holdHornsAnnoyed": {
+          "srcX": 216,
+          "srcY": 0,
+          "width": 88,
+          "height": 56,
+          "destX": 0,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": "special"
+        },
+        "awayShake": {
+          "srcX": 0,
+          "srcY": 0,
+          "width": 104,
+          "height": 104,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": "panic"
+        },
+        "towardShake": {
+          "srcX": 0,
+          "srcY": 104,
+          "width": 104,
+          "height": 104,
+          "destX": 16,
+          "destY": 0,
+          "subX": 0,
+          "subY": 0,
+          "img": "panic"
+        }
+      },
+      {
+        "normNeutral": {
+          "srcX": 16,
+          "srcY": 48,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upNeutral": {
+          "srcX": 144,
+          "srcY": 48,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upSleep": {
+          "srcX": 144,
+          "srcY": 104,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upTired": {
+          "srcX": 144,
+          "srcY": 160,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normSurprised": {
+          "srcX": 144,
+          "srcY": 216,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upProud": {
+          "srcX": 144,
+          "srcY": 272,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upSmug": {
+          "srcX": 144,
+          "srcY": 328,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upWhistling": {
+          "srcX": 144,
+          "srcY": 384,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downHardNod": {
+          "srcX": 144,
+          "srcY": 440,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normHardNod": {
+          "srcX": 144,
+          "srcY": 496,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upHardNod": {
+          "srcX": 144,
+          "srcY": 552,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downNeutral": {
+          "srcX": 248,
+          "srcY": 48,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downEyeClosed": {
+          "srcX": 248,
+          "srcY": 104,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downSad": {
+          "srcX": 248,
+          "srcY": 160,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downNervous": {
+          "srcX": 248,
+          "srcY": 216,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downAnnoyed": {
+          "srcX": 248,
+          "srcY": 272,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upShocked": {
+          "srcX": 248,
+          "srcY": 328,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awaySad": {
+          "srcX": 248,
+          "srcY": 384,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardSad": {
+          "srcX": 248,
+          "srcY": 440,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upInsane": {
+          "srcX": 248,
+          "srcY": 496,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normSadSmile": {
+          "srcX": 248,
+          "srcY": 552,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awayNeutral": {
+          "srcX": 352,
+          "srcY": 48,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awaySurprised": {
+          "srcX": 352,
+          "srcY": 104,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normExcited": {
+          "srcX": 352,
+          "srcY": 160,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awayCharmed": {
+          "srcX": 352,
+          "srcY": 216,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downScared": {
+          "srcX": 352,
+          "srcY": 272,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downDetermined": {
+          "srcX": 352,
+          "srcY": 328,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upPreCry1": {
+          "srcX": 352,
+          "srcY": 384,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upPreCry2": {
+          "srcX": 352,
+          "srcY": 440,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downInsane": {
+          "srcX": 352,
+          "srcY": 496,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardNeutral": {
+          "srcX": 456,
+          "srcY": 48,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardMoping": {
+          "srcX": 456,
+          "srcY": 104,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardSurprised": {
+          "srcX": 456,
+          "srcY": 160,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upAstonished": {
+          "srcX": 456,
+          "srcY": 216,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downExhausted": {
+          "srcX": 456,
+          "srcY": 272,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardSmile": {
+          "srcX": 456,
+          "srcY": 328,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awayTouched": {
+          "srcX": 456,
+          "srcY": 384,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downComplex": {
+          "srcX": 456,
+          "srcY": 440,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardConfused": {
+          "srcX": 560,
+          "srcY": 0,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upShout": {
+          "srcX": 560,
+          "srcY": 56,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normAngry": {
+          "srcX": 560,
+          "srcY": 112,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normEyeClosed": {
+          "srcX": 560,
+          "srcY": 224,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awayEyeClosed": {
+          "srcX": 560,
+          "srcY": 280,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardEyeClosed": {
+          "srcX": 560,
+          "srcY": 168,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downPanic1": {
+          "srcX": 560,
+          "srcY": 336,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downPanic2": {
+          "srcX": 560,
+          "srcY": 392,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normSad": {
+          "srcX": 664,
+          "srcY": 0,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upSad": {
+          "srcX": 664,
+          "srcY": 56,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "awayPain": {
+          "srcX": 664,
+          "srcY": 112,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "towardDisgusted": {
+          "srcX": 664,
+          "srcY": 168,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downFocused": {
+          "srcX": 664,
+          "srcY": 224,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "downDeadInside": {
+          "srcX": 664,
+          "srcY": 280,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "normDeadInside": {
+          "srcX": 664,
+          "srcY": 336,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upDeadInside": {
+          "srcX": 664,
+          "srcY": 392,
+          "width": 104,
+          "height": 56,
+          "destX": 16,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": ""
+        },
+        "upPain": {
+          "srcX": 224,
+          "srcY": 56,
+          "width": 96,
+          "height": 56,
+          "destX": 20,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": "special"
+        }
+      },
+      {
+        "handOne": {
+          "srcX": 144,
+          "srcY": 0,
+          "width": 88,
+          "height": 80,
+          "destX": 28,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handTwo": {
+          "srcX": 232,
+          "srcY": 0,
+          "width": 88,
+          "height": 80,
+          "destX": 28,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handPoint": {
+          "srcX": 320,
+          "srcY": 0,
+          "width": 88,
+          "height": 80,
+          "destX": 0,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handPointSelf": {
+          "srcX": 496,
+          "srcY": 0,
+          "width": 88,
+          "height": 80,
+          "destX": 0,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handThree": {
+          "srcX": 144,
+          "srcY": 80,
+          "width": 88,
+          "height": 80,
+          "destX": 28,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handFour": {
+          "srcX": 232,
+          "srcY": 80,
+          "width": 88,
+          "height": 80,
+          "destX": 28,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handFive": {
+          "srcX": 320,
+          "srcY": 80,
+          "width": 88,
+          "height": 80,
+          "destX": 28,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handWeird": {
+          "srcX": 408,
+          "srcY": 80,
+          "width": 88,
+          "height": 80,
+          "destX": 28,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "armsPoint1": {
+          "srcX": 144,
+          "srcY": 160,
+          "width": 168,
+          "height": 144,
+          "destX": -24,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "armsPoint2": {
+          "srcX": 312,
+          "srcY": 160,
+          "width": 168,
+          "height": 144,
+          "destX": -24,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "armsPoint3": {
+          "srcX": 480,
+          "srcY": 160,
+          "width": 168,
+          "height": 144,
+          "destX": -24,
+          "destY": 48,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        },
+        "handStarPre": {
+          "srcX": 584,
+          "srcY": 80,
+          "width": 88,
+          "height": 80,
+          "destX": -12,
+          "destY": 112,
+          "subX": 0,
+          "subY": 0,
+          "img": "hand"
+        }
+      }
+    ],
+    "expressions": {
+      "DEFAULT": {
+        "faces": [
+          [
+            "straight",
+            "norm",
+            "normNeutral"
+          ]
+        ]
+      },
+      "DOWN_EYE_CLOSED": {
+        "faces": [
+          [
+            "straight",
+            "down",
+            "downEyeClosed"
+          ]
+        ]
+      },
+      "SAD": {
+        "faces": [
+          [
+            "tight",
+            "down",
+            "downSad"
+          ]
+        ]
+      },
+      "MOPING": {
+        "faces": [
+          [
+            "tight",
+            "toward",
+            "towardMoping"
+          ]
+        ]
+      },
+      "NOD": {
+        "anim": [
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "straight",
+            "up",
+            "upNeutral"
+          ],
+          [
+            "straight",
+            "norm",
+            "normNeutral"
+          ],
+          [
+            "straight",
+            "down",
+            "downNeutral"
+          ]
+        ]
+      },
+      "SHAKE": {
+        "anim": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "straight",
+            "away",
+            "awayNeutral"
+          ],
+          [
+            "straight",
+            "norm",
+            "normNeutral"
+          ],
+          [
+            "straight",
+            "toward",
+            "towardNeutral"
+          ]
+        ]
+      },
+      "NOD_NERVOUS": {
+        "anim": [
+          3,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          1,
+          3
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "straight",
+            "up",
+            "upNeutral"
+          ],
+          [
+            "straight",
+            "norm",
+            "normNeutral"
+          ],
+          [
+            "straight",
+            "down",
+            "downNeutral"
+          ],
+          [
+            "straight",
+            "down",
+            "downNervous"
+          ]
+        ]
+      },
+      "SLEEPING": {
+        "faces": [
+          [
+            "spread",
+            "up",
+            "upSleep"
+          ]
+        ]
+      },
+      "WAKING": {
+        "anim": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "spread",
+            "up",
+            "upSleep"
+          ],
+          [
+            "spread",
+            "up",
+            "upTired"
+          ]
+        ]
+      },
+      "SURPRISED": {
+        "faces": [
+          [
+            "straight",
+            "norm",
+            "normSurprised"
+          ]
+        ]
+      },
+      "SURPRISED_TOWARD": {
+        "faces": [
+          [
+            "straight",
+            "toward",
+            "towardSurprised"
+          ]
+        ]
+      },
+      "ASTONISHED": {
+        "faces": [
+          [
+            "straight",
+            "up",
+            "upAstonished"
+          ]
+        ]
+      },
+      "SURPRISED_AWAY": {
+        "faces": [
+          [
+            "straight",
+            "away",
+            "awaySurprised"
+          ]
+        ]
+      },
+      "THINKING": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downFocused"
+          ]
+        ]
+      },
+      "NERVOUS": {
+        "faces": [
+          [
+            "straight",
+            "down",
+            "downNervous"
+          ]
+        ]
+      },
+      "SCARED": {
+        "faces": [
+          [
+            "tight",
+            "down",
+            "downScared"
+          ]
+        ]
+      },
+      "PROUD": {
+        "faces": [
+          [
+            "spread",
+            "up",
+            "upProud"
+          ]
+        ]
+      },
+      "SMUG": {
+        "faces": [
+          [
+            "straight",
+            "up",
+            "upSmug"
+          ]
+        ]
+      },
+      "WHISTLING": {
+        "faces": [
+          [
+            "tight",
+            "up",
+            "upWhistling"
+          ]
+        ]
+      },
+      "SHOCKED": {
+        "faces": [
+          [
+            "spread",
+            "up",
+            "upShocked"
+          ]
+        ]
+      },
+      "ANNOYED": {
+        "faces": [
+          [
+            "tired",
+            "down",
+            "downAnnoyed"
+          ]
+        ]
+      },
+      "HOLD_HORNS": {
+        "faces": [
+          [
+            "holdHorns"
+          ]
+        ]
+      },
+      "HOLD_HORNS_ANNOYED": {
+        "faces": [
+          [
+            "holdHorns",
+            "holdHornsAnnoyed"
+          ]
+        ]
+      },
+      "EXCITED": {
+        "faces": [
+          [
+            "forward",
+            "norm",
+            "normExcited"
+          ]
+        ]
+      },
+      "NOD_HAPPY": {
+        "anim": [
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "time": 0.05,
+        "faces": [
+          [
+            "forward",
+            "up",
+            "upNeutral"
+          ],
+          [
+            "forward",
+            "norm",
+            "normNeutral"
+          ],
+          [
+            "forward",
+            "down",
+            "downNeutral"
+          ],
+          [
+            "forward",
+            "norm",
+            "normExcited"
+          ]
+        ]
+      },
+      "CHARMED": {
+        "faces": [
+          [
+            "forward",
+            "away",
+            "awayCharmed"
+          ]
+        ]
+      },
+      "PAIN": {
+        "faces": [
+          [
+            "side",
+            "up",
+            "upPain"
+          ]
+        ]
+      },
+      "DETERMINED": {
+        "faces": [
+          [
+            "strong",
+            "down",
+            "downDetermined"
+          ]
+        ]
+      },
+      "EXHAUSTED": {
+        "faces": [
+          [
+            "tired",
+            "down",
+            "downExhausted"
+          ]
+        ]
+      },
+      "SMILE": {
+        "faces": [
+          [
+            "straight",
+            "toward",
+            "towardSmile"
+          ]
+        ]
+      },
+      "SAD_SMILE": {
+        "faces": [
+          [
+            "straight",
+            "norm",
+            "normSadSmile"
+          ]
+        ]
+      },
+      "TOUCHED": {
+        "faces": [
+          [
+            "tight",
+            "away",
+            "awayTouched"
+          ]
+        ]
+      },
+      "COMPLEX": {
+        "faces": [
+          [
+            "tight",
+            "down",
+            "downComplex"
+          ]
+        ]
+      },
+      "CONFUSED": {
+        "faces": [
+          [
+            "tight",
+            "toward",
+            "towardConfused"
+          ]
+        ]
+      },
+      "SHOUT": {
+        "faces": [
+          [
+            "spread",
+            "up",
+            "upShout"
+          ]
+        ]
+      },
+      "SHOUT_PANIC": {
+        "faces": [
+          [
+            "tight",
+            "up",
+            "upShout"
+          ]
+        ]
+      },
+      "ANGRY": {
+        "faces": [
+          [
+            "straight",
+            "norm",
+            "normAngry"
+          ]
+        ]
+      },
+      "PAIN_EYE_CLOSED": {
+        "faces": [
+          [
+            "tight",
+            "away",
+            "awayPain"
+          ]
+        ]
+      },
+      "DISGUSTED": {
+        "faces": [
+          [
+            "tight",
+            "toward",
+            "towardDisgusted"
+          ]
+        ]
+      },
+      "DEAD_INSIDE": {
+        "faces": [
+          [
+            "straight",
+            "down",
+            "downDeadInside"
+          ]
+        ]
+      },
+      "DEAD_INSIDE2": {
+        "faces": [
+          [
+            "straight",
+            "norm",
+            "normDeadInside"
+          ]
+        ]
+      },
+      "PRE_CRY1": {
+        "faces": [
+          [
+            "straight",
+            "up",
+            "upPreCry1"
+          ]
+        ]
+      },
+      "PRE_CRY2": {
+        "faces": [
+          [
+            "tight",
+            "up",
+            "upPreCry2"
+          ]
+        ]
+      },
+      "NODS_DEAD_INSIDE": {
+        "anim": [
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2
+        ],
+        "time": 0.133,
+        "faces": [
+          [
+            "straight",
+            "up",
+            "upDeadInside"
+          ],
+          [
+            "straight",
+            "norm",
+            "normDeadInside"
+          ],
+          [
+            "straight",
+            "down",
+            "downDeadInside"
+          ]
+        ]
+      },
+      "SHAKE_EYE_CLOSED": {
+        "anim": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "time": 0.066,
+        "faces": [
+          [
+            "straight",
+            "away",
+            "awayEyeClosed"
+          ],
+          [
+            "straight",
+            "norm",
+            "normEyeClosed"
+          ],
+          [
+            "straight",
+            "toward",
+            "towardEyeClosed"
+          ]
+        ]
+      },
+      "SHAKE_PANIC": {
+        "anim": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0,
+          1,
+          3,
+          4,
+          3,
+          4,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "time": 0.05,
+        "repeat": 11,
+        "faces": [
+          [
+            "tight",
+            "awayShake"
+          ],
+          [
+            "tight",
+            "down",
+            "downPanic1"
+          ],
+          [
+            "tight",
+            "towardShake"
+          ],
+          [
+            "tight",
+            "down",
+            "downPanic1"
+          ],
+          [
+            "tight",
+            "down",
+            "downPanic2"
+          ]
+        ]
+      },
+      "SHAKE_SCARED": {
+        "anim": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        "time": 0.066,
+        "faces": [
+          [
+            "tight",
+            "awayShake"
+          ],
+          [
+            "tight",
+            "down",
+            "downPanic1"
+          ],
+          [
+            "tight",
+            "towardShake"
+          ],
+          [
+            "tight",
+            "down",
+            "downScared"
+          ]
+        ]
+      },
+      "PANIC": {
+        "anim": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "time": 0.05,
+        "repeat": 1,
+        "faces": [
+          [
+            "tight",
+            "down",
+            "downPanic1"
+          ],
+          [
+            "tight",
+            "down",
+            "downPanic2"
+          ]
+        ]
+      },
+      "NOD_SAD": {
+        "anim": [
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          1,
+          2
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "tight",
+            "up",
+            "upSad"
+          ],
+          [
+            "tight",
+            "norm",
+            "normSad"
+          ],
+          [
+            "tight",
+            "down",
+            "downSad"
+          ]
+        ]
+      },
+      "NOD_HARD1": {
+        "anim": [
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          3
+        ],
+        "time": 0.05,
+        "faces": [
+          [
+            "tight",
+            "up",
+            "upHardNod"
+          ],
+          [
+            "tight",
+            "norm",
+            "normHardNod"
+          ],
+          [
+            "tight",
+            "down",
+            "downHardNod"
+          ],
+          [
+            "tight",
+            "up",
+            "upPreCry1"
+          ]
+        ]
+      },
+      "NOD_HARD2": {
+        "anim": [
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          3
+        ],
+        "time": 0.05,
+        "faces": [
+          [
+            "tight",
+            "up",
+            "upHardNod"
+          ],
+          [
+            "tight",
+            "norm",
+            "normHardNod"
+          ],
+          [
+            "tight",
+            "down",
+            "downHardNod"
+          ],
+          [
+            "tight",
+            "up",
+            "upPreCry2"
+          ]
+        ]
+      },
+      "SHAKE_SAD": {
+        "anim": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          3
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "tight",
+            "away",
+            "awaySad"
+          ],
+          [
+            "tight",
+            "norm",
+            "normSad"
+          ],
+          [
+            "tight",
+            "toward",
+            "towardSad"
+          ],
+          [
+            "tight",
+            "down",
+            "downSad"
+          ]
+        ]
+      },
+      "SAD_AWAY": {
+        "faces": [
+          [
+            "tight",
+            "away",
+            "awaySad"
+          ]
+        ]
+      },
+      "HAND_ONE": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handOne"
+          ]
+        ]
+      },
+      "HAND_ONE_THINKING": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downFocused",
+            "handOne"
+          ]
+        ]
+      },
+      "HAND_ONE_WHISTLING": {
+        "faces": [
+          [
+            "hand",
+            "up",
+            "upWhistling",
+            "handOne"
+          ]
+        ]
+      },
+      "HAND_TWO": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handTwo"
+          ]
+        ]
+      },
+      "HAND_TWO_THINKING": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downFocused",
+            "handTwo"
+          ]
+        ]
+      },
+      "HAND_THREE": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handThree"
+          ]
+        ]
+      },
+      "HAND_THREE_THINKING": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downFocused",
+            "handThree"
+          ]
+        ]
+      },
+      "HAND_THREE_SMUG": {
+        "faces": [
+          [
+            "hand",
+            "up",
+            "upSmug",
+            "handThree"
+          ]
+        ]
+      },
+      "HAND_FOUR": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handFour"
+          ]
+        ]
+      },
+      "HAND_FOUR_SMUG": {
+        "faces": [
+          [
+            "hand",
+            "up",
+            "upSmug",
+            "handFour"
+          ]
+        ]
+      },
+      "HAND_FIVE": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handFive"
+          ]
+        ]
+      },
+      "HAND_WEIRD": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downFocused",
+            "handWeird"
+          ]
+        ]
+      },
+      "HAND_WEIRD_DETERMINED": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downDetermined",
+            "handWeird"
+          ]
+        ]
+      },
+      "HAND_WEIRD_TIRED": {
+        "faces": [
+          [
+            "tired",
+            "down",
+            "downAnnoyed",
+            "handWeird"
+          ]
+        ]
+      },
+      "HAND_POINT": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handPoint"
+          ]
+        ]
+      },
+      "HAND_POINT_SELF": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normNeutral",
+            "handPointSelf"
+          ]
+        ]
+      },
+      "HAND_POINT_SELF_DETERMINED": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downDetermined",
+            "handPointSelf"
+          ]
+        ]
+      },
+      "HAND_SELF_SURPRISED": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normSurprised",
+            "handPointSelf"
+          ]
+        ]
+      },
+      "HAND_POINT_JOKE": {
+        "faces": [
+          [
+            "hand",
+            "toward",
+            "towardSmile",
+            "handPoint"
+          ]
+        ]
+      },
+      "HAND_POINT_DETERMINED": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downDetermined",
+            "handPoint"
+          ]
+        ]
+      },
+      "HAND_POINT_ANGRY": {
+        "faces": [
+          [
+            "hand",
+            "norm",
+            "normAngry",
+            "handPoint"
+          ]
+        ]
+      },
+      "WRAP_SHOULDER": {
+        "faces": [
+          [
+            "wrapShoulder"
+          ]
+        ]
+      },
+      "WRAP_HEAD": {
+        "faces": [
+          [
+            "wrapHead"
+          ]
+        ]
+      },
+      "CRY": {
+        "faces": [
+          [
+            "cry"
+          ]
+        ]
+      },
+      "STAR_POINTING_PRE": {
+        "faces": [
+          [
+            "hand",
+            "down",
+            "downFocused",
+            "handStarPre"
+          ]
+        ]
+      },
+      "STAR_POINTING": {
+        "anim": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          0,
+          1
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "hand2",
+            "up",
+            "upProud",
+            "armsPoint1"
+          ],
+          [
+            "hand2",
+            "up",
+            "upProud",
+            "armsPoint2"
+          ],
+          [
+            "hand2",
+            "up",
+            "upProud",
+            "armsPoint3"
+          ]
+        ]
+      },
+      "STAR_POINTING_DETERMINED": {
+        "anim": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          0,
+          1
+        ],
+        "time": 0.1,
+        "faces": [
+          [
+            "hand2",
+            "down",
+            "downDetermined",
+            "armsPoint1"
+          ],
+          [
+            "hand2",
+            "down",
+            "downDetermined",
+            "armsPoint2"
+          ],
+          [
+            "hand2",
+            "down",
+            "downDetermined",
+            "armsPoint3"
+          ]
+        ]
+      },
+      "INSANE": {
+        "faces": [
+          [
+            "spread",
+            "up",
+            "upInsane"
+          ]
+        ]
+      },
+      "INSANE_DOWN": {
+        "faces": [
+          [
+            "spread",
+            "down",
+            "downInsane"
+          ]
+        ]
+      }
+    }
+  }
+}
