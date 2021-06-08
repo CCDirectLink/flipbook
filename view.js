@@ -163,7 +163,7 @@ function fitParts(ex,ey) {
                 var xOff = ex + x + part.destX;
                 if (xOff < 0) {
                     tWidth -= xOff;
-                    ex -= Xoff;
+                    ex -= xOff;
                     xOff = ex + x + part.destX;
                 }
                 var xMax = part.width + xOff;
