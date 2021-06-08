@@ -147,10 +147,10 @@ function draw() {
     var x = y = 0;
     for (var i = document.getElementById("body").checked?1:0; i < char.partsId.length; i++) {
         if (char.partsId[i]) {
-            if (canvas.width < part.width || canvas.height < part.height) {
-                resize(canvas, part.width, part.height);
-            }
             var part = char.parts[i][char.partsId[i]]
+            if (canvas.width < part.width || canvas.height < part.height) {
+                resize(canvas, math.max(part.width,canvas.width), math.max(part.height,canvas.height));
+            }
             drawPart(ctx, char.image, part, x, y);
             x += part.subX || 0;
             y += part.subY || 0;
