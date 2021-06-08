@@ -149,7 +149,7 @@ function draw() {
         if (char.partsId[i]) {
             var part = char.parts[i][char.partsId[i]]
             if (canvas.width < part.width || canvas.height < part.height) {
-                resize(canvas, math.max(part.width,canvas.width), math.max(part.height,canvas.height));
+                resize(canvas, Math.max(part.width,canvas.width), Math.max(part.height,canvas.height));
             }
             drawPart(ctx, char.image, part, x, y);
             x += part.subX || 0;
