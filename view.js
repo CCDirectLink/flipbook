@@ -6,7 +6,9 @@ var char = {
     partsId: [],
     custom: false,
     anim: false,
-    isAnim: false
+    isAnim: false,
+    width: 0,
+    height: 0
 };
 
 function clean() {
@@ -28,7 +30,9 @@ function clean() {
         partsId: [],
         custom: false,
         anim: false,
-        isAnim: false
+        isAnim: false,
+        width: 0,
+        height: 0
     }
 }
 
@@ -83,6 +87,8 @@ async function loadChar(data) {
     }))
     char.parts = data.parts;
     char.exp = data.expressions;
+    char.width = data.width;
+    char.height = data.height;
     resize(document.getElementById("c-1"), data.width, data.height);
     for (var i = 0; i < char.parts.length; i++) {
         genRow(i);
@@ -140,17 +146,62 @@ function changePart(id, value) {
     draw();
 }
 
+function fitParts(ex,ey) {
+    var canvas = document.getElementById("c-1");
+    var x = y = 0;
+    var tWidth = tHeight = 0;
+    for (var i = 0; i < char.partsId.length; i++) {
+        if (char.partsId[i]) {
+            var part = char.parts[i][char.partsId[i]]
+            if (i == 0) {
+                tWidth = part.width;
+                tHeight = part.height;
+                tWidth += Math.abs(part.destX);
+                if (part.destX < 0) ex - part.destX;
+                tHeight += part.destY;
+            } else {
+                var xOff = ex + x + part.destX;
+                if (xOff < 0) {
+                    tWidth -= xOff;
+                    ex -= Xoff;
+                    xOff = ex + x + part.destX;
+                }
+                var xMax = part.width + xOff;
+                if (xMax > tWidth) tWidth = xMax;
+                var yOff = ey + y + part.destY;
+                if (yOff < 0) {
+                    tHeight -= yOff;
+                    ey -= yOff;
+                    yOff = ey + y + part.destY;
+                }
+                var yMax = part.height + yOff;
+                if (yMax > tHeight) tHeight = yMax;
+            }
+
+            x += part.subX || 0;
+            y += part.subY || 0;
+        } else {
+            if (i == 0) {
+                tWidth = char.width;
+                tHeight = char.height;
+            }
+        }
+    }
+    resize(canvas, tWidth, tHeight);
+    return {x:ex,y:ey}
+}
+
 function draw() {
     var canvas = document.getElementById("c-1");
     var ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     var x = y = 0;
+    var off = fitParts(x, y);
+    x = off.x;
+    y = off.y;
     for (var i = document.getElementById("body").checked?1:0; i < char.partsId.length; i++) {
         if (char.partsId[i]) {
             var part = char.parts[i][char.partsId[i]]
-            if (canvas.width < part.width || canvas.height < part.height) {
-                resize(canvas, Math.max(part.width,canvas.width), Math.max(part.height,canvas.height));
-            }
             drawPart(ctx, char.image, part, x, y);
             x += part.subX || 0;
             y += part.subY || 0;
