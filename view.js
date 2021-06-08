@@ -157,7 +157,7 @@ function fitParts(ex,ey) {
                 tWidth = part.width;
                 tHeight = part.height;
                 tWidth += Math.abs(part.destX);
-                if (part.destX < 0) ex - part.destX;
+                if (part.destX < 0) ex -= part.destX;
                 tHeight += part.destY;
             } else {
                 var xOff = ex + x + part.destX;
