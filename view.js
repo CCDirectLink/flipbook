@@ -158,7 +158,8 @@ function fitParts(ex,ey) {
                 tHeight = part.height;
                 tWidth += Math.abs(part.destX);
                 if (part.destX < 0) ex -= part.destX;
-                tHeight += part.destY;
+                tHeight += Math.abs(part.destY);
+                if (part.destY < 0) ey -= part.destY;
             } else {
                 var xOff = ex + x + part.destX;
                 if (xOff < 0) {
@@ -174,8 +175,8 @@ function fitParts(ex,ey) {
                     ey -= yOff;
                     yOff = ey + y + part.destY;
                 }
-                var yMax = part.height + yOff;
-                if (yMax > tHeight) tHeight = yMax;
+                //var yMax = part.height + yOff;
+                //if (yMax > tHeight) tHeight = yMax;
             }
 
             x += part.subX || 0;
